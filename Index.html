@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplos CSS</title>
+
+    <!-- CSS INTERNO -->
+    <style>
+        .interno p {
+            color: blue;
+        }
+
+        .interno h1 {
+            font-family: Arial;
+            font-style: italic;
+        }
+    </style>
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h2> CSS en línea</h2>
+    <p style="color: red;">Esto es una prueba con CSS en línea</p>
+
+    <hr>
+
+
+    <div class="interno">
+        <h2> CSS interno</h2>
+        <h1>Texto con estilo interno</h1>
+        <p>Este texto es azul</p>
+    </div>
+
+    <hr>
+
+
+    <div class="externo">
+        <h2> CSS externo</h2>
+        <h1>Introducción a CSS</h1>
+        <p>Este texto usa estilos desde un archivo externo</p>
+    </div>
+
+</body>
